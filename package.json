@@ -1,0 +1,11 @@
+{
+  "name": "todo-component",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.jsx --bundle --outfile=dist/app.js --loader:.css=css",
+    "start": "npm run build && node server.cjs"
+  },
+  "dependencies": { "react": "19.2.0", "react-dom": "19.2.0" },
+  "devDependencies": { "esbuild": "0.25.10" }
+}
