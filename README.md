@@ -1,5 +1,9 @@
 # My first React component
 
+Open the [live app](https://osaleh28.github.io/todo-component/).
+
+GitHub Pages automatically publishes updates pushed to `main`.
+
 Open this folder in VS Code. In its terminal, run:
 
 ```sh
